@@ -7,7 +7,7 @@ router=APIRouter()
 def get_conn():
     conn=psycopg2.connect(db_url)
     return conn
-    
+
 @router.get('/emp')
 def get_emp():
     conn=get_conn()
