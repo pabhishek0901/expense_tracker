@@ -1,6 +1,12 @@
 from fastapi import APIRouter
 import psycopg2
 from fastapi.responses import JSONResponse
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # loads .env
+
+db_url = os.getenv("DB_url")
 
 router=APIRouter()
 
