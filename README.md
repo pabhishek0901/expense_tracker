@@ -27,7 +27,7 @@ cd expense-tracker
 
 2. Create Virtual Environment
 python -m venv venv
-venv\Scripts\activate      # Windows
+venv\Scripts\activate
 
 3️. Install Dependencies
 pip install -r requirements.txt
