@@ -46,6 +46,8 @@ uvicorn app:app --reload
 ### Swagger UI:
 http://127.0.0.1:8000/docs
 
+### Project Interface
+<img width="1919" height="860" alt="project view" src="https://github.com/user-attachments/assets/f4a1c0ae-4521-4248-85b7-f4e91f3c271e" />
 
 ### Summary
 > This project is an Employee Risk Tracker built with FastAPI and Streamlit, where employee data is stored in PostgreSQL.
